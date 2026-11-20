@@ -1,4 +1,4 @@
-# Agent agreement
+# Minimal agent team
 
 A plain-markdown operating manual for AI coding agents. You copy it into a repo as `.project/`. It tells every agent (Claude Code, Codex, any of them) how to work together: who decides what, how to report, what "done" means, how review and git work, and what never happens without you.
 
@@ -43,7 +43,7 @@ Everything lives in [`template/`](template/):
 2. Copy the `template/` folder into your repo and rename it `.project/`. From your repo's root:
 
    ```
-   cp -Rn path/to/agent-agreement/template/ .project/
+   cp -Rn path/to/minimal-agent-team/template/ .project/
    ```
 
 3. Fill the `<…>` placeholders in `.project/team.md` and the briefs. Leaving a default is fine.
